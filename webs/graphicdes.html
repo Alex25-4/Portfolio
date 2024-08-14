@@ -1,92 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="/assets/css/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graphic Design Portfolio</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
+        .bxxa {
+            background-color: #272829;
+            padding-bottom: 10px;
         }
         .prrt {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
+            background-color: #272829;
+            color: gold;
             text-align: center;
         }
-        .container {
-            max-width: 1200px;
-           margin: 50px;
-                }
-       
-        .portfolio-row h2 {
-            text-align: center;
-        }
-        .portfolio-item {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .portfolio-item img {
-            max-width: 100%;
-            height: auto;
-            margin: 5px;
-        }
-       
-       
-       .portfolio-item img{
-      margin: 50px;
-       }
-       .portfolio-row h2 {
-        color: blue;
-       }
+        @media (min-width: 460px) {
+        .prrt h1{
+            text-decoration: underline;
+           padding-bottom: 20px;
+        }}
+        @media (max-width: 460px) {
+        .prrt h1{
+            font-size: 25px;
+            text-decoration: underline;
+           padding-bottom: 20px;
+        }}
+        @media (max-width: 350px) {
+        .prrt h1{
+            font-size: 18px;
+            text-decoration: underline;
+           padding-bottom: 20px;
+        }}
+        @media (max-width: 260px) {
+        .prrt h1{
+            font-size: 15px;
+            text-decoration: underline;
+           padding-bottom: 20px;
+        }}
        .back a {
             font-weight: bolder;
             border-width: 2px;
             padding: 8px 20px;
-            color: black;
+            color: green;
             background-color: white;
             cursor: pointer;
+            border-radius: 10px;
         }
         .back a:hover{
-            color: black;
+            color: white;
             background: gold;
         }
-       
+        
+        .bxx1 {
+            gap: 70px;
+        }
+        
+        .bxx1 h3{
+           font-size: 24px;
+            padding-bottom: 30px;
+            color: white;
+        }
+       /* @media (min-width: 1063px) {
+        .menu-img {
+        width: 250px;
+        height: 280px;
+    }}
+    @media (max-width: 1063px) {
+        .menu-img {
+        width: 200px;
+        height: 230px;
+    }} */
+    @media (min-width: 460px) {
+    .menu-img {
+        width: 280px;
+        height: 310px;
+    }}
+    
+    @media (max-width: 460px) {
+    .menu-img {
+        width: 240px;
+        height: 270px;
+    }}
+    @media (max-width: 340px) {
+    .menu-img {
+        width: 200px;
+        height: 230px;
+    }}
+    @media (max-width: 300px) {
+    .menu-img {
+        width: 160px;
+        height: 190px;
+    }}
+    @media (max-width: 260px) {
+    .menu-img {
+        width: 130px;
+        height: 160px;
+    }}
+    
+    @media (min-width: 460px) {
+    .logo-img {
+        width: 310px;
+        height: 310px;
+    }}
+    @media (max-width: 460px) {
+    .logo-img {
+        width: 260px;
+        height: 260px;
+    }}
+    @media (max-width: 340px) {
+    .logo-img {
+        width: 220px;
+        height: 220px;
+    }}
+    @media (max-width: 300px) {
+    .logo-img {
+        width: 180px;
+        height: 180px;
+    }}
+    @media (max-width: 260px) {
+    .logo-img {
+        width: 150px;
+        height: 150px;
+    }}
+    @media (max-width: 225px) {
+    .logo-img {
+        width: 130px;
+        height: 130px;
+    }}
+    @media (min-width: 460px) {
+    .illustration-img {
+        width: 310px;
+        height: 310px;
+    }}
+    @media (max-width: 460px) {
+    .illustration-img {
+        width: 260px;
+        height: 260px;
+    }}
+    @media (max-width: 340px) {
+    .illustration-img {
+        width: 220px;
+        height: 220px;
+    }}
+    @media (max-width: 300px) {
+    .illustration-img {
+        width: 180px;
+        height: 180px;
+    }}
+    @media (max-width: 260px) {
+    .illustration-img {
+        width: 150px;
+        height: 150px;
+    }}
+    @media (max-width: 225px) {
+    .illustration-img {
+        width: 130px;
+        height: 130px;
+    }}
+    @media (min-width: 460px) {
+    .booklet-img {
+        width: 350px;
+        height: 330px;
+    }}
+    
+    @media (min-width: 1150px) {
+     .bxx0 {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 50px;
+    }}
+    @media (max-width: 1150px) {
+     .bxx0 {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-around;
+        gap: 50px;
+    }}
+    @media (max-width: 810px) {
+     .bxx0 {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 200px;
+        gap: 50px;
+    }}
+    @media (max-width: 720px) {
+     .bxx0 {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 100px;
+        gap: 50px;
+    }}
+    @media (max-width: 570px) {
+     .bxx0 {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 50px;
+        gap: 50px;
+    }}
+    @media (max-width: 470px) {
+     .bxx0 {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0px;
+        gap: 50px;
+    }}
+
+
+
+
+    @media (min-width: 460px) {
+    .booklet-img {
+        width: 350px;
+        height: 330px;
+    }}
+    @media (max-width: 460px) {
+    .booklet-img {
+        display: none;
+    }}
+    @media (min-width: 470px) {
+    .bxx10 {
+        display: none;
+    }}
+    @media (max-width: 470px) {
+    .bxx10 img{
+        width: 240px;
+        height:240px;
+    }}
+    @media (max-width: 340px) {
+    .bxx10 img{
+        width: 200px;
+        height:200px;
+    }}
+    @media (max-width: 300px) {
+    .bxx10 img{
+        width: 170px;
+        height:170px;
+    }}
+    @media (max-width: 260px) {
+    .bxx10 img{
+        width: 140px;
+        height:140px;
+    }}
+    @media (max-width: 225px) {
+    .bxx10 img{
+        width: 130px;
+        height:130px;
+    }}
+    
+  
     </style>
 </head>
 <body>
+    <div class="bxxa">
     <div>
-        <div style="background: #050d18;padding: 40px;" class="back">
+        <div style="background: #272829;padding: 40px;" class="back">
             <a href="../index.html" class="btn">Back</a>
         </div>
         <div class="prrt">
             <h1>Graphic Design Portfolio</h1>
         </div>
     </div>
-    <div >
-        <div class="container">
-            <div class="portfolio-row">
-                <h2><u>College Booklet</u></h2>
-                <div class="portfolio-item">
-                    <img src="../graphics/booklet/gr4.jpg"  alt="Web Design 1">
-                    <img src="../graphics/booklet/gr3.jpg" alt="Web Design 2">
-                    <img src="../graphics/booklet/gr2.jpg" alt="Web Design 3">
-                    <img src="../graphics/booklet/gr1.jpg" alt="Web Design 4">
-                </div>
-            </div>
-            <div class="portfolio-row">
-                <h2><u>Project</u></h2>
-                <div class="portfolio-item">
-                  
-                </div>
-            </div>
-            
-            <!-- Add more portfolio rows as needed -->
+    <div class="bxx0">
+        <div class="bxx1">
+            <h3>Menu</h3>
+            <img class="menu-img" src="/graphics/12.jpg">
         </div>
+        <div class="bxx1">
+            <h3>Logo</h3>
+            <img class="logo-img" src="/graphics/13.jpg">
+        </div>
+        <div class="bxx1">
+            <h3>Illustration</h3>
+            <img class="illustration-img" src="/graphics/14.jpg">
+        </div>
+        <div class="bxx1">
+            <h3>Booklet</h3>
+            <img class="booklet-img" src="/graphics/bk.jpg">
+        </div>
+        <div class="bxx10">
+            <h3>Booklet</h3>
+            <img style="margin-top: -50px;" class="booklet-imgz" src="/graphics/xb.jpg">
+            <img style="margin-top: 30px;" class="booklet-imgz" src="/graphics/xa.jpg">
+        </div>
+    </div>
     </div>
 </body>
 </html>
